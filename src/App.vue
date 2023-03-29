@@ -2,9 +2,11 @@
 import axios from 'axios';
 import { store } from './store.js';
 import MyHeader from './components/MyHeader.vue';
+import CardList from './components/CardList.vue';
 export default {
   components: {
     MyHeader,
+    CardList,
   },
   data() {
     return {
@@ -26,6 +28,8 @@ export default {
   <MyHeader></MyHeader>
 
   <main>
+
+    <CardList></CardList>
 
   </main>
 </template>
