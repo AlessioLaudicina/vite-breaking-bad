@@ -7,8 +7,10 @@ export default {
 
 <template>
     <div>
-        <h1 class="text-center">Yuo-Ghi oh</h1>
+        <h1 class="text-center">Yu-Gi-oh API</h1>
 
 
     </div>
 </template>
+
+<style scoped></style>
