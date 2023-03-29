@@ -19,8 +19,8 @@ export default {
 <template>
     <div class="container">
         <div class="row">
-            <div class="col-3" v-for=" ( card, index) in store.elencoCards" :key="index">
-                <Cards :image="card.image_url" :name="card.name" :archetype="card.archetype"></Cards>
+            <div class="col-2" v-for=" ( card, index) in store.elencoCards" :key="index">
+                <Cards :image="card.card_images[0].image_url" :name="card.name" :archetype="card.archetype"></Cards>
 
 
             </div>
