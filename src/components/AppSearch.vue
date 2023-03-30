@@ -17,6 +17,9 @@ export default {
             <option value="">Select archetype</option>
             <option value="alien">Alien</option>
             <option value="A.I.">A.I.</option>
+            <option value="Unchained">Unchained</option>
+            <option value="Dragunity">Dragunity</option>
+
         </select>
 
     </div>

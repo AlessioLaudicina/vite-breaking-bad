@@ -41,7 +41,7 @@ img {
 
 h5 {
 
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     font-weight: 700;
     margin-bottom: 20px;
     padding-top: 10px
